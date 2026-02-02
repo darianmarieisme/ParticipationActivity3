@@ -210,9 +210,3 @@ descriptive_word_choice = (descriptive_words.pop(random.randint(0, len(descripti
 noun_choice = (nouns.pop(random.randint(0, len(nouns)-1))).title()
 
 print(f"Your generated cute name is:\n\t{descriptive_word_choice} {noun_choice}")
-
-descriptive_word_choice = (descriptive_words.pop(random.randint(0, len(descriptive_words)-1))).title()
-
-noun_choice = (nouns.pop(random.randint(0, len(nouns)-1))).title()
-
-print(f"Your generated cute name is:\n\t{descriptive_word_choice} {noun_choice}")
